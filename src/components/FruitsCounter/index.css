@@ -1,0 +1,95 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 50px;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+.color {
+  color: #ffd569;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruit-img {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .fruit-img {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
